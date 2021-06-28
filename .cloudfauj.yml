@@ -1,0 +1,14 @@
+---
+project: demo-server
+apps:
+  nginx-api:
+    type: server
+    healthcheck:
+      path: "/health"
+    visbility: public
+    resources:
+      cpu: 100
+      memory: 100
+      network:
+        bind_port: 8080
+
