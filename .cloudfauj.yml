@@ -3,10 +3,10 @@ name: nginx-api
 type: server
 healthcheck:
   path: "/health"
-visbility: public
+visibility: public
 resources:
   cpu: 100
-  memory: 100
+  memory: 200
   network:
     bind_port: 8080
 
