@@ -1,5 +1,5 @@
 ---
-name: nginx-api
+name: nginx_api
 type: server
 healthcheck:
   path: "/health"
